@@ -2,9 +2,9 @@
 // to print out the numbers from 20 to 10.
 
 void main() {
-  int counter = 10;
-  while (counter <= 20) {
+  int counter = 20;
+  while (counter > 10) {
     print(counter);
-    counter++;
+    counter--;
   }
 }
