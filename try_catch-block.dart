@@ -4,7 +4,7 @@
 
 void main() {
   try {
-    int result = 50 / 0;
+    int result = 50 ~/ 0;
     print(result);
   } catch (e) {
     print("An error occurred: $e");
